@@ -1,0 +1,66 @@
+*{
+    background-color: #201313;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Nav_bar{
+    display: flex;
+    gap: 250px;
+}
+
+.Nav_bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Nav_bar ul li a:hover{
+    color: #FDC425;
+    
+}
+
+.Nav_bar button{
+    color: white;
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: none;
+    margin-top: 20px;
+}
+
+.Nav_bar button:hover{
+    background-color: rgb(193, 43, 43);
+}
+
+.main1{
+    color: white;
+    text-align: center;
+}
+
+.main1 p a{
+    color: rgb(214, 182, 124);
+}
+
+.main1 p a:hover{
+    color: #FDC425;
+}
+
+.main1 h1{
+    font-size: 49.5px;
+}
+
+.main1 p{
+    font-size: 30px;
+}
+
+.main1{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+
+}
